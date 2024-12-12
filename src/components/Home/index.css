@@ -1,0 +1,61 @@
+.profile-img{
+    width:200px;
+}
+.profile-container{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+.name{
+    color:#12022f;
+    font-family:"Roboto";
+    font-size:22px;
+    font-weight:700;
+}
+.profession{
+    color:#616e7c;
+    font-family:"Roboto";
+    font-size:18px;  
+}
+.title{
+    color:#12022f;
+    font-family:"Roboto";
+    font-size:20px;
+    font-weight:700;
+
+}
+.title-container{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+
+}
+.description{
+    color: #9aa5b1;
+    font-family:"Roboto";
+    font-size:18px;
+   
+
+}
+.date{
+    color: #9aa5b1;
+    font-family:"Roboto";
+    font-size:18px;
+    
+}
+.posts-container{
+    padding:20px;
+}
+
+@media screen and (max-width:567px){
+    .date{
+        font-size:14px;
+    }
+    .title{
+        font-size:16px;
+
+    }
+    .description{
+        font-size:14px;
+    }
+}
